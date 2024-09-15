@@ -1,28 +1,8 @@
-<div className={className}>
-    <div class='navbar-container'>
-        <img 
-            [src]="getIconSource('home')"
-            alt='House icon' 
-            class='navbar-icon' 
-            (click)="handleNavbarItemClick('home')"
-        />
-        <img 
-            [src]="getIconSource('shop')" 
-            alt='Bag icon' 
-            class='navbar-icon'
-            (click)="handleNavbarItemClick('shop')"
-        />
-        <img 
-            [src]="getIconSource('notifications')" 
-            alt='Bell icon' 
-            class='navbar-icon'
-            (click)="handleNavbarItemClick('notifications')"
-        />
-        <img 
-            [src]="getIconSource('profile')" 
-            alt='Profile icon' 
-            class='navbar-icon'
-            (click)="handleNavbarItemClick('profile')"
-        />
-    </div>
+<div class='navbar-container'>
+    <img [src]="getIconSource('home')" alt='House icon' class='navbar-icon' (click)="handleNavbarItemClick('home')" />
+    <img [src]="getIconSource('shop')" alt='Bag icon' class='navbar-icon' (click)="handleNavbarItemClick('shop')" />
+    <img [src]="getIconSource('notifications')" alt='Bell icon' class='navbar-icon'
+        (click)="handleNavbarItemClick('notifications')" />
+    <img [src]="getIconSource('profile')" alt='Profile icon' class='navbar-icon'
+        (click)="handleNavbarItemClick('profile')" />
 </div>

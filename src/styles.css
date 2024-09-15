@@ -6,14 +6,9 @@
 }
 
 body {
+    margin: 0;
     color: rgb(var(--foreground-rgb));
     background-color: var(--background-main);
     margin-bottom: 90px;
 }
 
-app-navbar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 100;
-}
