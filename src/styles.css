@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+    --background-main: #FBF9F9;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background-color: var(--background-main);
+    margin-bottom: 90px;
+}
+
+app-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
